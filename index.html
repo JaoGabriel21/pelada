@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelada dos Cansados</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <nav>
+        <div class="logo-area">
+            <div class="logo-circle">⚽</div> 
+        </div>
+        
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#jogos">Peladas</a></li>
+            <li><a href="#ranking">Classificação</a></li>
+            <li><a href="#elenco">Jogadores</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>PELADA DOS<br>CANSADOS</h1>
+                <p>
+                    A Pelada dos Cansados é o nosso compromisso das noites de sexta. 
+                    Fundada com o objetivo de unir futebol duvidoso e resenha de qualidade.
+                    Aqui a regra é clara: vacilou é falta no Angelo.
+                </p>
+                <a href="#ranking" class="btn-primary">Ver Classificação</a>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hexagon-bg"></div>
+                
+                <img src="logo.png" alt="Escudo Pelada" class="crest-img 3d-effect">
+            </div>
+        </div>
+    </section>
+
+    <section id="jogos" class="container">
+        <h2>Peladas</h2>
+        <div class="cards-grid" id="lista-peladas"></div>
+    </section>
+
+    <section id="ranking" class="container">
+        <h2>Classificação Geral</h2>
+        <div class="table-responsive">
+            <table class="ranking-table">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th style="min-width: 180px; text-align:left; padding-left:20px">Jogador</th>
+                        <th>P</th>
+                        <th>C</th> <th>V</th>
+                        <th>G</th>
+                        <th>A</th>
+                        <th>Média (G+A)</th>
+                        <th>Artilheiro</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-ranking">
+                    </tbody>
+            </table>
+        </div>
+        <p style="text-align:center; font-size: 0.8rem; color: #888; margin-top: 10px;">(Arraste para o lado para ver tudo)</p>
+    </section>
+
+    <section id="elenco" class="container">
+        <h2>Nossos Cansados</h2>
+        <div class="cards-grid" id="lista-jogadores"></div>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <footer id="historico" class="season-footer">
+        <div class="footer-content">
+            <div class="season-text">
+                <h2>Temporadas</h2>
+                <p>Quer relembrar as peladas do passado?</p>
+            </div>
+            
+            <a href="2025/index.html" class="btn-primary btn-season">
+                Ver Temporada 2025 ⏪
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
