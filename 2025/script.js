@@ -65,7 +65,7 @@ const peladas = [
         data: "Quinta - 01/05/2025",
         local: "Arena Soccer",
         campeao: "PRETO",
-        artilheiro: "Gustahab",
+        artilheiro: "Gustahab / Arcuri",
         times: [
             {
                 nome: "PRETO",
@@ -1035,4 +1035,79 @@ document.addEventListener("DOMContentLoaded", () => {
     carregarJogadores();
     carregarGoleiros(); 
     carregarPeladas();
+});
+// --- FUNÇÃO PARA GERAR OS PÓDIOS (TOP 3) ---
+function carregarPodios() {
+    // 1. Pódio de Vitórias
+    const topVitorias = [...jogadores]
+        .sort((a, b) => b.vitorias - a.vitorias || b.jogos - a.jogos)
+        .slice(0, 3);
+    renderizarPodio("podio-vitorias", topVitorias, "vitorias");
+
+    // 2. Pódio de Gols
+    const topGols = [...jogadores]
+        .sort((a, b) => b.gols - a.gols || b.jogos - a.jogos)
+        .slice(0, 3);
+    renderizarPodio("podio-gols", topGols, "gols");
+
+    // 3. Pódio de Assistências
+    const topAssistencias = [...jogadores]
+        .sort((a, b) => b.assistencias - a.assistencias || b.jogos - a.jogos)
+        .slice(0, 3);
+    renderizarPodio("podio-assistencias", topAssistencias, "assistencias");
+}
+
+// Função auxiliar que monta o HTML de cada pódio
+function renderizarPodio(elementId, listaJogadores, statKey) {
+    const container = document.getElementById(elementId);
+    if (!container) return;
+
+    let html = "";
+    
+    // Precisamos identificar quem é 1º, 2º e 3º para aplicar as classes CSS corretas
+    // A lista já vem ordenada do maior para o menor [0]=1º, [1]=2º, [2]=3º
+    
+    // 2º LUGAR (Fica na esquerda visualmente)
+    if (listaJogadores[1]) {
+        html += criarHtmlBarra(listaJogadores[1], "second", "place-2", statKey);
+    } else {
+        // Placeholder se não tiver 2º lugar
+        html += `<div class="podium-place place-2 second"></div>`; 
+    }
+
+    // 1º LUGAR (Fica no meio visualmente)
+    if (listaJogadores[0]) {
+        html += criarHtmlBarra(listaJogadores[0], "first", "place-1", statKey);
+    }
+
+    // 3º LUGAR (Fica na direita visualmente)
+    if (listaJogadores[2]) {
+        html += criarHtmlBarra(listaJogadores[2], "third", "place-3", statKey);
+    } else {
+        html += `<div class="podium-place place-3 third"></div>`;
+    }
+
+    container.innerHTML = html;
+}
+
+function criarHtmlBarra(jogador, tamanhoClasse, ordemClasse, statKey) {
+    // Pega o valor da estatística (vitorias, gols ou assistencias)
+    const valor = jogador[statKey];
+    
+    return `
+        <div class="podium-place ${ordemClasse} ${tamanhoClasse}">
+            <img src="${jogador.foto}" class="podium-avatar" alt="${jogador.nome}" title="${jogador.nome}">
+            <div class="podium-bar">
+                <span class="stat-value">${valor}</span>
+            </div>
+            <div style="font-size:0.8rem; margin-top:5px; color:#ccc; font-weight:bold">${jogador.nome}</div>
+        </div>
+    `;
+}
+document.addEventListener("DOMContentLoaded", () => {
+    carregarRanking(); 
+    carregarJogadores();
+    carregarGoleiros(); 
+    carregarPeladas();
+    carregarPodios(); // <--- ADICIONE ISSO
 });
