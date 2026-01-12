@@ -824,9 +824,10 @@ function carregarRanking() {
 // --- FUNÇÕES DE INTERFACE (CARDS) ---
 
 function carregarJogadores() {
-    // Esta função carrega os jogadores de LINHA
     const grid = document.getElementById("lista-jogadores");
-    if(!grid) return; // Segurança
+    if(!grid) return; 
+
+    grid.innerHTML = ""; // <--- ESSA LINHA RESOLVE A DUPLICAÇÃO
 
     const jogadoresAlfabetico = [...jogadores].sort((a, b) => a.nome.localeCompare(b.nome));
 

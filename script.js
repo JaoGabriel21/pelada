@@ -423,13 +423,6 @@
     const navList = document.querySelector('.nav-links');
     if (mobileMenu) { mobileMenu.addEventListener('click', () => { navList.classList.toggle('active'); }); }
     document.querySelectorAll('.nav-links li a').forEach(link => { link.addEventListener('click', () => { if(navList) navList.classList.remove('active'); }); });
-
-    document.addEventListener("DOMContentLoaded", () => {
-        carregarRanking(); 
-        carregarJogadores();
-        carregarGoleiros(); 
-        carregarPeladas();
-    });
     // --- FUNÇÃO PARA GERAR OS PÓDIOS (TOP 3) ---
 function carregarPodios() {
     // 1. Pódio de Vitórias
