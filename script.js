@@ -19,7 +19,10 @@
         { nome: "Bruno", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/534423535_1857846355085757_1355694869978555994_n.jpg?ccb=11-4&oh=01_Q5Aa3gEmOPTvXf87HnVscIeAYFRk0jbUgQIlG_p8r7W0ZdpVKg&oe=697066C0&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Gabrielzinho", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/516043046_728895860086120_1913677633073792820_n.jpg?ccb=11-4&oh=01_Q5Aa3gEVwrWRWWNtdgqGj2xCOQ3UuSmj_cBSSHFcnMUeXSc2Kw&oe=6970525C&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Pepe", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/567657678_871593888541784_8023990647240951763_n.jpg?ccb=11-4&oh=01_Q5Aa3gE1mspD9rl_H5j86_FVpz6mbEqKeVV-bW43OR9sdb4iXw&oe=69705AFE&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Renan", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/597704937_877054118018181_806930989951513078_n.jpg?ccb=11-4&oh=01_Q5Aa3gGr6MJHMV3Vb9_3SilKcr26SYWmd8lzjl3YK73bTXfVKQ&oe=69705B58&_nc_sid=5e03e0&_nc_cat=102", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
+        { nome: "Renan", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/597704937_877054118018181_806930989951513078_n.jpg?ccb=11-4&oh=01_Q5Aa3gGr6MJHMV3Vb9_3SilKcr26SYWmd8lzjl3YK73bTXfVKQ&oe=69705B58&_nc_sid=5e03e0&_nc_cat=102", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Gabal", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/505225702_1027263776199010_2127406370177934762_n.jpg?ccb=11-4&oh=01_Q5Aa3gG5vEX00o_FpT4nX6p9C7Pf6Nya4aUwFX0KuMJ1W3R8pg&oe=6970F359&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Rickson", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/491843800_729226286121610_6365021200973351345_n.jpg?ccb=11-4&oh=01_Q5Aa3gF8yySnGe1hcmdytV1zqDed8YhCGNNTdY7yE3p4pQt13g&oe=69712210&_nc_sid=5e03e0&_nc_cat=107", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Venezuela", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/534425700_1995705891184935_2319731149058225588_n.jpg?ccb=11-4&oh=01_Q5Aa3gEVVcSXPfXKTVk9_e7esVcdTXseaSNTOSttTF_L7r0icg&oe=6970FB3E&_nc_sid=5e03e0&_nc_cat=101", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
     ];
 
     // --- 2. REGISTRO DAS PELADAS ---
@@ -75,6 +78,55 @@
             goleiros: [
                 { nome: "Pepe", golsSofridos: 5 , semGols: 4 } ,
                 { nome: "Renan", golsSofridos: 2 , semGols: 5 } 
+            ]
+        },
+        { 
+            id: 2, 
+            data: "Sexta - 16/01/2026", 
+            local: "Casa de Portugal",
+            campeao: "DOURADO", 
+            artilheiro: "Gustahab",
+            
+            times: [
+                {
+                    nome: "VERMELHO",
+                    classeCor: "header-vermelho",
+                    stats: { v: 2, e: 3, d: 1, gp: 4, gc: 4 },
+                    jogadores: [
+                        { nome: "Angelo", g: 1, a: 1 },
+                        { nome: "Renan", g: 1, a: 1 },
+                        { nome: "Gabrielzinho", g: "-", a: "-" },
+                        { nome: "Chaves", g: "-", a: "-" },
+                        { nome: "Lucas", g: "-", a: 2 },
+                        { nome: "Lott", g: 2, a: "-" }
+                    ]
+                },
+                {
+                    nome: "CINZA",
+                    classeCor: "header-cinza",
+                    stats: { v: 0, e: 1, d: 3, gp: 0, gc: 3 },
+                    jogadores: [
+                        { nome: "Venezuela", g: "-", a: "-" },
+                        { nome: "Felipe", g: "-", a: "-" },
+                        { nome: "Gabal", g: "-", a: "-" },
+                        { nome: "Kayan", g: "-", a: "-" },
+                        { nome: "Thiago L.", g: "-", a: "-" },
+                        { nome: "Loirin", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "DOURADO",
+                    classeCor: "header-dourado",
+                    stats: { v: 3, e: 2, d: 1, gp: 5, gc: 2 },
+                    jogadores: [
+                        { nome: "Samuel", g: "-", a: "-" },
+                        { nome: "Rafael", g: 1, a: 1 },
+                        { nome: "Gustahab", g: 3, a: "-" },
+                        { nome: "Colombia", g: "-", a: "-" },
+                        { nome: "Pedrinho", g: "-", a: 1 },
+                        { nome: "Rickson", g: 1, a: 1 }
+                    ]
+                }
             ]
         }
     ];
@@ -292,7 +344,7 @@
     function carregarPeladas() {
         const grid = document.getElementById("lista-peladas");
         grid.innerHTML = ""; 
-        const peladasRecentes = [...peladas].reverse();
+        const peladasRecentes = [...peladas];
 
         peladasRecentes.forEach(pelada => {
             const card = document.createElement("div");
