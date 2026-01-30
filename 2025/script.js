@@ -1,7 +1,7 @@
 // --- 1. BANCO DE DADOS DE JOGADORES (Atualizado com novos nomes) ---
 const jogadores = [
     // --- JOGADORES ORIGINAIS ---
-    { nome: "João G.", foto: "../img/jotage..jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+    { nome: "João G.", foto: "../img/jotage.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
     { nome: "Pedrinho", foto: "../img/pedrinho.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
     { nome: "Colombia", foto: "../img/colombia.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
     { nome: "Samuel", foto: "../img/samuel.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
