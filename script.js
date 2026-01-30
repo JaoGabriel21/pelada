@@ -1,28 +1,30 @@
     // --- 1. BANCO DE DADOS DE JOGADORES (ESTÁTICO) ---
     const jogadores = [
-        { nome: "João G.", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/181228961_1078560592688072_665851991389254516_n.jpg?ccb=11-4&oh=01_Q5Aa3gHsV03lKnghNRAS1lqloRzu7ecB2FqLjppgTW8EBiCaaA&oe=6970658E&_nc_sid=5e03e0&_nc_cat=102", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Kayan", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/515507487_1805595570387170_727168124970758572_n.jpg?ccb=11-4&oh=01_Q5Aa3gG7Cst2YgxzPBmCml4mY2ml2EmLl_xr2r2ruXhweoK4jQ&oe=69706736&_nc_sid=5e03e0&_nc_cat=101", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Lott", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/508553094_882328444355077_8357485012377416225_n.jpg?ccb=11-4&oh=01_Q5Aa3gFBR0FCa6RD7LnHv-NGuQaFk3RY29LddlzShFRJpEBgWQ&oe=69706551&_nc_sid=5e03e0&_nc_cat=101", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Angelo", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/508650785_721751111017682_7325046047465738836_n.jpg?ccb=11-4&oh=01_Q5Aa3gFb3lbs5elapTtjgFZSEVts1aNAE4VKSOd__82ICVIUeg&oe=69705A6F&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Felipe", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/577873873_841152082024544_3479787730576796283_n.jpg?ccb=11-4&oh=01_Q5Aa3gEoQ6ytMwtw-9dxjqEuu6rBjBdvGTZLFLk0zInXkZkAtA&oe=69706312&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Pedrinho", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/429255747_1051437012598334_672174196726423210_n.jpg?ccb=11-4&oh=01_Q5Aa3gE9Icqt8Mv2a1XpKsh_N0SpOCKmIzTwTyNqI9nBqEcNFQ&oe=69704508&_nc_sid=5e03e0&_nc_cat=101", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Douglas", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/488417596_1329122108201698_2802660902085527597_n.jpg?ccb=11-4&oh=01_Q5Aa3gEOORF3PMzAo-UFBJuFbqEQmBUX0G9Yf5Hk4Jeo6zq07g&oe=697056C9&_nc_sid=5e03e0&_nc_cat=107", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Thiago L.", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/528715853_1540876043996194_4138768970405509631_n.jpg?ccb=11-4&oh=01_Q5Aa3gGTAv4LSiMg9iPM1fE9WTVJ16RRNdYBH6y8wygf9krJOw&oe=69703E4B&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Rafael", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/453778747_463075259876036_3893392846952291842_n.jpg?ccb=11-4&oh=01_Q5Aa3gFXPrH-yg2kOpf6sRcwh_h_ctLj2XT5nwxKDXaI8FGxSg&oe=69705A45&_nc_sid=5e03e0&_nc_cat=103", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Colombia", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/473408869_538759969251904_7857540136570595296_n.jpg?ccb=11-4&oh=01_Q5Aa3gHG9Mly08t8Sr-rNS-UaSHo4FlNBRSudUmP4pHImCYhJg&oe=69706739&_nc_sid=5e03e0&_nc_cat=109", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Guidoncic", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/534419669_1854772908743724_4276119602341225111_n.jpg?ccb=11-4&oh=01_Q5Aa3gHv_C9bZFziw4La8yZ1oxWic5I5AJqVuE7JbkJOZjLQIQ&oe=69706D0B&_nc_sid=5e03e0&_nc_cat=109", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Samuel", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/521576332_769272935554912_3275661071789941563_n.jpg?ccb=11-4&oh=01_Q5Aa3gExt4Rzy0XNW-UBR_ANRDR1qvFAwZxi2s1wx3HdvolW3A&oe=69704C36&_nc_sid=5e03e0&_nc_cat=105", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Gustahab", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/439249268_434862129570977_8206225452752137202_n.jpg?ccb=11-4&oh=01_Q5Aa3gH6_mhs9S5Je8u5faHXcnuVIWYNMgTmSsd-eCSBMJJkZw&oe=69703D86&_nc_sid=5e03e0&_nc_cat=106", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Chaves", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/518953667_738234845611994_7766136400258293629_n.jpg?ccb=11-4&oh=01_Q5Aa3gFcANtj5xHmgL5HwofW_PNSxgOpD1cHV4o3aptuaCWMxA&oe=69706680&_nc_sid=5e03e0&_nc_cat=108", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Loirin", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/571099819_1104595618423378_860575607875669691_n.jpg?ccb=11-4&oh=01_Q5Aa3gHlV3B0EGs4OhFl7YmFVCp11jTxSMfVog0hxiPGTW8rQw&oe=69704C6D&_nc_sid=5e03e0&_nc_cat=105", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "João G.", foto: "./img/jotage.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Kayan", foto: "./img/kayan.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Lott", foto: "./img/lott.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Angelo", foto: "./img/angelo.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Felipe", foto: "./img/felipe.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Pedrinho", foto: "./img/pedrinho.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Douglas", foto: "./img/douglas.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Thiago L.", foto: "./img/thiago.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Rafael", foto: "./img/rafael.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Colombia", foto: "./img/colombia.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Guidoncic", foto: "./img/guidoncic.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Samuel", foto: "./img/samuel.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Gustahab", foto: "./img/gustahab.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Chaves", foto: "./img/chaves.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Loirin", foto: "./img/loirin.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Lucas", foto: "./img/lucas.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Bruno", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/534423535_1857846355085757_1355694869978555994_n.jpg?ccb=11-4&oh=01_Q5Aa3gEmOPTvXf87HnVscIeAYFRk0jbUgQIlG_p8r7W0ZdpVKg&oe=697066C0&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Gabrielzinho", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/516043046_728895860086120_1913677633073792820_n.jpg?ccb=11-4&oh=01_Q5Aa3gEVwrWRWWNtdgqGj2xCOQ3UuSmj_cBSSHFcnMUeXSc2Kw&oe=6970525C&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Pepe", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/567657678_871593888541784_8023990647240951763_n.jpg?ccb=11-4&oh=01_Q5Aa3gE1mspD9rl_H5j86_FVpz6mbEqKeVV-bW43OR9sdb4iXw&oe=69705AFE&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Renan", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/597704937_877054118018181_806930989951513078_n.jpg?ccb=11-4&oh=01_Q5Aa3gGr6MJHMV3Vb9_3SilKcr26SYWmd8lzjl3YK73bTXfVKQ&oe=69705B58&_nc_sid=5e03e0&_nc_cat=102", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Gabal", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/505225702_1027263776199010_2127406370177934762_n.jpg?ccb=11-4&oh=01_Q5Aa3gG5vEX00o_FpT4nX6p9C7Pf6Nya4aUwFX0KuMJ1W3R8pg&oe=6970F359&_nc_sid=5e03e0&_nc_cat=111", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Rickson", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/491843800_729226286121610_6365021200973351345_n.jpg?ccb=11-4&oh=01_Q5Aa3gF8yySnGe1hcmdytV1zqDed8YhCGNNTdY7yE3p4pQt13g&oe=69712210&_nc_sid=5e03e0&_nc_cat=107", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Venezuela", foto: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/534425700_1995705891184935_2319731149058225588_n.jpg?ccb=11-4&oh=01_Q5Aa3gEVVcSXPfXKTVk9_e7esVcdTXseaSNTOSttTF_L7r0icg&oe=6970FB3E&_nc_sid=5e03e0&_nc_cat=101", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
+        { nome: "Bruno", foto: "./img/bruno.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Gabrielzinho", foto: "./img/gabrielzinho.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Pepe", foto: "./img/pepe.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Renan", foto: "./img/renan.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Gabal", foto: "./img/gabal.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Rickson", foto: "./img/rickson.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Venezuela", foto: "./img/venezuela.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Arcuri", foto: "./img/arcuri.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Guihab", foto: "./img/guihab.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
     ];
 
     // --- 2. REGISTRO DAS PELADAS ---
@@ -125,6 +127,55 @@
                         { nome: "Colombia", g: "-", a: "-" },
                         { nome: "Pedrinho", g: "-", a: 1 },
                         { nome: "Rickson", g: 1, a: 1 }
+                    ]
+                }
+            ]
+        },
+        { 
+            id: 3, 
+            data: "Sexta - 23/01/2026", 
+            local: "Casa de Portugal",
+            campeao: "BRANCO", 
+            artilheiro: "Loirin",
+            
+            times: [
+                {
+                    nome: "AZUL",
+                    classeCor: "header-azul",
+                    stats: { v: 3, e: 3, d: 3, gp: 7, gc: 9 },
+                    jogadores: [
+                        { nome: "Pedrinho", g: 1, a: 1 },
+                        { nome: "Felipe", g: 1, a: "-" },
+                        { nome: "Douglas", g: 2, a: 1 },
+                        { nome: "Rafael", g: 1, a: 2 },
+                        { nome: "Gustahab", g: "-", a: 1 },
+                        { nome: "Guihab", g: 2, a: "-" }
+                    ]
+                },
+                {
+                    nome: "PRETO",
+                    classeCor: "header-preto",
+                    stats: { v: 1, e: 3, d: 5, gp: 5, gc: 8 },
+                    jogadores: [
+                        { nome: "Lott", g: "-", a: "-" },
+                        { nome: "Angelo", g: 1, a: "-" },
+                        { nome: "Thiago L.", g: 3, a: "-" },
+                        { nome: "João G.", g: "-", a: "-" },
+                        { nome: "Samuel", g: "-", a: "-" },
+                        { nome: "Bruno", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "BRANCO",
+                    classeCor: "header-dourado",
+                    stats: { v: 5, e: 4, d: 1, gp: 9, gc: 5 },
+                    jogadores: [    
+                        { nome: "Arcuri", g: "-", a: "-" },
+                        { nome: "Loirin", g: 4, a: 1 },
+                        { nome: "Rickson", g: 1, a: "-" },
+                        { nome: "Chaves", g: 3, a: "-" },
+                        { nome: "Gabrielzinho", g: "-", a: 1 },
+                        { nome: "Lucas", g: 2, a: 1 }
                     ]
                 }
             ]

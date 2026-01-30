@@ -494,6 +494,7 @@ h2 { text-align: center; margin-bottom: 2rem; color: var(--accent-color); text-t
 .header-dourado { background-color: #d4af37; color: #000; }
 .header-cinza { background-color: #818181; color: #000; }
 .header-vermelho { background-color: #751c1c; color: #ffffff; }
+.header-azul { background-color: #1976d2; color: #ffffff; }
 
 /* Goleiros no final */
 .goleiros-section {
