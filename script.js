@@ -167,7 +167,7 @@
                 },
                 {
                     nome: "BRANCO",
-                    classeCor: "header-dourado",
+                    classeCor: "header-branco",
                     stats: { v: 5, e: 4, d: 1, gp: 9, gc: 5 },
                     jogadores: [    
                         { nome: "Arcuri", g: "-", a: "-" },
