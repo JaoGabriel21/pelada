@@ -207,12 +207,12 @@
                 {
                     nome: "VERMELHO",
                     classeCor: "header-vermelho",
-                    stats: { v: 2, e: 1, d: 2, gp: 4, gc: 4 },
+                    stats: { v: 2, e: 2, d: 2, gp: 5, gc: 5 },
                     jogadores: [
                         { nome: "Felipe", g: "-", a: 1 },
-                        { nome: "Venezuela", g: 1, a: "-" },
+                        { nome: "Venezuela", g: 2, a: "-" },
                         { nome: "Pedrinho", g: 2, a: "-" },
-                        { nome: "Lucas", g: 1, a: 1 },
+                        { nome: "Lucas", g: 1, a: 2 },
                         { nome: "Gabal", g: "-", a: "-" },
                         { nome: "Bruno", g: "-", a: "-" }
                     ]
@@ -220,10 +220,10 @@
                 {
                     nome: "ROXO",
                     classeCor: "header-roxo",
-                    stats: { v: 3, e: 1, d: 1, gp: 4, gc: 2 },
+                    stats: { v: 3, e: 2, d: 1, gp: 5, gc: 3 },
                     jogadores: [    
                         { nome: "Colombia", g: "-", a: "-" },
-                        { nome: "Arcuri", g: "-", a: "-" },
+                        { nome: "Arcuri", g: 1, a: "-" },
                         { nome: "Douglas", g: 1, a: "-" },
                         { nome: "Lott", g: "-", a: 2 },
                         { nome: "Thiago L.", g: 3, a: "-" },
@@ -232,7 +232,7 @@
                 }
             ],
                 goleiros: [
-                    { nome: "(Fernando) Miguel", golsSofridos: 6 , semGols: 2 }
+                    { nome: "(Fernando) Miguel", golsSofridos: 7 , semGols: 2 }
             ]
         }
     ];
