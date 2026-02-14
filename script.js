@@ -25,6 +25,9 @@
         { nome: "Venezuela", foto: "./img/venezuela.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Arcuri", foto: "./img/arcuri.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Guihab", foto: "./img/guihab.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Guilherme", foto: "./img/guipadre.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Nicolas", foto: "./img/nicolas.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "(Fernando) Miguel", foto: "./img/fernandomiguel.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
     ];
 
     // --- 2. REGISTRO DAS PELADAS ---
@@ -178,6 +181,58 @@
                         { nome: "Lucas", g: 2, a: 1 }
                     ]
                 }
+            ]
+        },
+        { 
+            id: 4, 
+            data: "Sexta - 13/02/2026", 
+            local: "Casa de Portugal",
+            campeao: "ROXO", 
+            artilheiro: "Thiago L.",
+            
+            times: [
+                {
+                    nome: "DOURADO",
+                    classeCor: "header-dourado",
+                    stats: { v: 0, e: 2, d: 2, gp: 1, gc: 3 },
+                    jogadores: [
+                        { nome: "Chaves", g: "-", a: "-" },
+                        { nome: "Guilherme", g: 1, a: "-" },
+                        { nome: "Loirin", g: "-", a: "-" },
+                        { nome: "Kayan", g: "-", a: "-" },
+                        { nome: "Angelo", g: "-", a: "-" },
+                        { nome: "Nicolas", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "VERMELHO",
+                    classeCor: "header-vermelho",
+                    stats: { v: 2, e: 1, d: 2, gp: 4, gc: 4 },
+                    jogadores: [
+                        { nome: "Felipe", g: "-", a: 1 },
+                        { nome: "Venezuela", g: 1, a: "-" },
+                        { nome: "Pedrinho", g: 2, a: "-" },
+                        { nome: "Lucas", g: 1, a: 1 },
+                        { nome: "Gabal", g: "-", a: "-" },
+                        { nome: "Bruno", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "ROXO",
+                    classeCor: "header-roxo",
+                    stats: { v: 3, e: 1, d: 1, gp: 4, gc: 2 },
+                    jogadores: [    
+                        { nome: "Colombia", g: "-", a: "-" },
+                        { nome: "Arcuri", g: "-", a: "-" },
+                        { nome: "Douglas", g: 1, a: "-" },
+                        { nome: "Lott", g: "-", a: 2 },
+                        { nome: "Thiago L.", g: 3, a: "-" },
+                        { nome: "Samuel", g: "-", a: "-" }
+                    ]
+                }
+            ],
+                goleiros: [
+                    { nome: "(Fernando) Miguel", golsSofridos: 6 , semGols: 2 }
             ]
         }
     ];

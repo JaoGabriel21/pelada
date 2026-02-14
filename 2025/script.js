@@ -54,7 +54,7 @@ const jogadores = [
     { nome: "Gabriel X.", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
     { nome: "Renatin", foto: "../img/renatin.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
     { nome: "Christian", foto: "../img/paim.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-    { nome: "Guilherme do Padre", foto: "../img/guipadre.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+    { nome: "Guilherme", foto: "../img/guipadre.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
     { nome: "Padre", foto: "../img/padre.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
 ];
 
@@ -649,7 +649,7 @@ const peladas = [
                 { nome: "Samuel", g: "-", a: "-" },
                 { nome: "Rickson", g: "-", a: "-" },
                 { nome: "Renatin", g: "-", a: "-" },
-                { nome: "Guilherme do Padre", g: 1, a: "-" }
+                { nome: "Guilherme", g: 1, a: "-" }
             ]
         },
         {
