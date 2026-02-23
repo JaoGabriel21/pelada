@@ -27,7 +27,11 @@
         { nome: "Guihab", foto: "./img/guihab.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Guilherme", foto: "./img/guipadre.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Nicolas", foto: "./img/nicolas.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "(Fernando) Miguel", foto: "./img/fernandomiguel.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
+        { nome: "(Fernando) Miguel", foto: "./img/fernandomiguel.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Padre", foto: "./img/padre.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Nicollas", foto: "./img/nicollas.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Juliano", foto: "./img/juliano.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Cid", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
     ];
 
     // --- 2. REGISTRO DAS PELADAS ---
@@ -233,6 +237,55 @@
             ],
                 goleiros: [
                     { nome: "(Fernando) Miguel", golsSofridos: 7 , semGols: 2 }
+            ]
+        },
+        { 
+            id: 5, 
+            data: "Sexta - 20/02/2026", 
+            local: "Casa de Portugal",
+            campeao: "VERDE", 
+            artilheiro: "Pedrinho / Thiago L.",
+            
+            times: [
+                {
+                    nome: "BRANCO",
+                    classeCor: "header-branco",
+                    stats: { v: 3, e: 1, d: 3, gp: 3, gc: 3 },
+                    jogadores: [
+                        { nome: "Rafael", g: "-", a: 1 },
+                        { nome: "Samuel", g: 1, a: "-" },
+                        { nome: "Chaves", g: "-", a: "-" },
+                        { nome: "Renan", g: 1, a: "-" },
+                        { nome: "Douglas", g: 1, a: "-" },
+                        { nome: "Nicollas", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "AZUL",
+                    classeCor: "header-azul",
+                    stats: { v: 2, e: 1, d: 4, gp: 3, gc: 5 },
+                    jogadores: [
+                        { nome: "Cid", g: "-", a: "-" },
+                        { nome: "Thiago L.", g: 2, a: "-" },
+                        { nome: "Sanjay", g: "-", a: "-" },  // 1 Gol Contra x Verde
+                        { nome: "Padre", g: "-", a: 2 },
+                        { nome: "Guilherme", g: 1, a: "-" },
+                        { nome: "Kayan", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "VERDE",
+                    classeCor: "header-verde",
+                    stats: { v: 5, e: 0, d: 3, gp: 7, gc: 4 },
+                    jogadores: [    
+                        { nome: "Pedrinho", g: 2, a: 1 },
+                        { nome: "Gabal", g: "-", a: "-" },
+                        { nome: "Lott", g: 1, a: 2 },
+                        { nome: "Felipe", g: 1, a: "-" },
+                        { nome: "Juliano", g: 1, a: "-" },
+                        { nome: "Lucas", g: 1, a: 2 }
+                    ]
+                }
             ]
         }
     ];
