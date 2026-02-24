@@ -244,7 +244,7 @@
             data: "Sexta - 20/02/2026", 
             local: "Casa de Portugal",
             campeao: "VERDE", 
-            artilheiro: "Pedrinho / Thiago L.",
+            artilheiro: "Pedrinho",
             
             times: [
                 {
@@ -267,7 +267,7 @@
                     jogadores: [
                         { nome: "Cid", g: "-", a: "-" },
                         { nome: "Thiago L.", g: 2, a: "-" },
-                        { nome: "Sanjay", g: "-", a: "-" },  // 1 Gol Contra x Verde
+                        { nome: "Sanjay", g: "-", a: "-" },
                         { nome: "Padre", g: "-", a: 2 },
                         { nome: "Guilherme", g: 1, a: "-" },
                         { nome: "Kayan", g: "-", a: "-" }
@@ -278,9 +278,9 @@
                     classeCor: "header-verde",
                     stats: { v: 5, e: 0, d: 3, gp: 7, gc: 4 },
                     jogadores: [    
-                        { nome: "Pedrinho", g: 2, a: 1 },
+                        { nome: "Pedrinho", g: 3, a: 1 },
                         { nome: "Gabal", g: "-", a: "-" },
-                        { nome: "Lott", g: 1, a: 2 },
+                        { nome: "Lott", g: 1, a: 3 },
                         { nome: "Felipe", g: 1, a: "-" },
                         { nome: "Juliano", g: 1, a: "-" },
                         { nome: "Lucas", g: 1, a: 2 }
