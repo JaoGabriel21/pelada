@@ -31,7 +31,10 @@
         { nome: "Padre", foto: "./img/padre.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Nicollas", foto: "./img/nicollas.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Juliano", foto: "./img/juliano.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Cid", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
+        { nome: "Dudu", foto: "../img/dudu.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Cid", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Marcelo", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Yan Leal", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
     ];
 
     // --- 2. REGISTRO DAS PELADAS ---
@@ -284,6 +287,105 @@
                         { nome: "Felipe", g: 1, a: "-" },
                         { nome: "Juliano", g: 1, a: "-" },
                         { nome: "Lucas", g: 1, a: 2 }
+                    ]
+                },
+                { 
+                    id: 6, 
+                    data: "Sexta - 27/02/2026", 
+                    local: "Casa de Portugal",
+                    campeao: "VERDE", 
+                    artilheiro: "Padre",
+                    
+                    times: [
+                        {
+                            nome: "VERMELHO",
+                            classeCor: "header-vermelho",
+                            stats: { v: 3, e: 3, d: 3, gp: 8, gc: 7 },
+                            jogadores: [
+                                { nome: "Yan Leal", g: "-", a: "-" },
+                                { nome: "Lucas", g: 1, a: 3 },
+                                { nome: "Angelo", g: 1, a: 1 },
+                                { nome: "Arcuri", g: 2, a: "-" },
+                                { nome: "Felipe", g: 1, a: "-" },
+                                { nome: "Lott", g: "-", a: 1 }
+                            ]
+                        },
+                        
+                        {
+                            nome: "AZUL",
+                            classeCor: "header-azul",
+                            stats: { v: 2, e: 4, d: 3, gp: 6, gc: 8 },
+                            jogadores: [
+                                { nome: "Thiago L.", g: 2, a: "-" },
+                                { nome: "Pedrinho", g: 2, a: 1 },
+                                { nome: "Colombia", g: "-", a: "-" },
+                                { nome: "Renan", g: 2, a: 1 },
+                                { nome: "Venezuela", g: "-", a: "-" },
+                                { nome: "Gabal", g: "-", a: "-" }
+                            ]
+                        },
+                        {
+                            nome: "VERDE",
+                            classeCor: "header-verde",
+                            stats: { v: 3, e: 3, d: 2, gp: 5, gc: 4 },
+                            jogadores: [    
+                                { nome: "Dudu", g: "-", a: "-" },
+                                { nome: "Guilherme", g: "-", a: "-" },
+                                { nome: "Chaves", g: 1, a: "-" },
+                                { nome: "Samuel", g: "-", a: 1 },
+                                { nome: "Padre", g: 3, a: "-" },
+                                { nome: "Loirin", g: "-", a: "-" }
+                            ]
+                        }
+                    ]
+                },
+                { 
+                    id: 7, 
+                    data: "Sexta - 20/03/2026", 
+                    local: "Casa de Portugal",
+                    campeao: "VERMELHO", 
+                    artilheiro: "Thiago L.",
+                    
+                    times: [
+                        {
+                            nome: "CINZA",
+                            classeCor: "header-cinza",
+                            stats: { v: 1, e: 4, d: 2, gp: 2, gc: 3 },
+                            jogadores: [
+                                { nome: "Pedrinho", g: "-", a: 1 },
+                                { nome: "Lott", g: "-", a: 1 },
+                                { nome: "Angelo", g: 2, a: "-" },
+                                { nome: "Bruno", g: "-", a: "-" },
+                                { nome: "Colombia", g: "-", a: "-" },
+                                { nome: "Juliano", g: "-", a: "-" }
+                            ]
+                        },
+                        {
+                            nome: "VERMELHO",
+                            classeCor: "header-vermelho",
+                            stats: { v: 4, e: 3, d: 1, gp: 8, gc: 3 },
+                            jogadores: [
+                                { nome: "Douglas", g: "-", a: 1 },
+                                { nome: "Samuel", g: 1, a: "-" },
+                                { nome: "Chaves", g: 1, a: 1 },
+                                { nome: "Thiago L.", g: 3, a: "-" },
+                                { nome: "Lucas", g: 1, a: "-" },
+                                { nome: "João G.", g: 1, a: 2 }
+                            ]
+                        },
+                        {
+                            nome: "AZUL",
+                            classeCor: "header-azul",
+                            stats: { v: 1, e: 3, d: 4, gp: 4, gc: 8 },
+                            jogadores: [    
+                                { nome: "Loirin", g: 2, a: 1 },
+                                { nome: "Gabal", g: "-", a: "-" },
+                                { nome: "Felipe", g: "-", a: "-" },
+                                { nome: "Marcelo", g: "-", a: "-" },
+                                { nome: "Venezuela", g: 1, a: "-" },
+                                { nome: "Gustahab", g: 1, a: 1 }
+                            ]
+                        }
                     ]
                 }
             ]
