@@ -465,19 +465,6 @@
             
             times: [
                 {
-                    nome: "PRETO",
-                    classeCor: "header-preto",
-                    stats: { v: 3, e: 0, d: 2, gp: 7, gc: 5 },
-                    jogadores: [
-                        { nome: "Lucas", g: 2, a: 1 },
-                        { nome: "Rafael", g: 1, a: "-" },
-                        { nome: "João G.", g: 1, a: 1 },
-                        { nome: "Chaves", g: 3, a: 1 },
-                        { nome: "Colombia", g: "-", a: "-" },
-                        { nome: "Samuel", g: "-", a: 2 }
-                    ]
-                },
-                {
                     nome: "AZUL",
                     classeCor: "header-azul",
                     stats: { v: 2, e: 2, d: 2, gp: 6, gc: 7 },
@@ -501,6 +488,19 @@
                         { nome: "Loirin", g: 2, a: "-" },
                         { nome: "Kayan", g: "-", a: "-" },
                         { nome: "Angelo", g: 1, a: 2 }
+                    ]
+                },
+                {
+                    nome: "PRETO",
+                    classeCor: "header-preto",
+                    stats: { v: 3, e: 0, d: 2, gp: 7, gc: 5 },
+                    jogadores: [
+                        { nome: "Lucas", g: 2, a: 1 },
+                        { nome: "Rafael", g: 1, a: "-" },
+                        { nome: "João G.", g: 1, a: 1 },
+                        { nome: "Chaves", g: 3, a: 1 },
+                        { nome: "Colombia", g: "-", a: "-" },
+                        { nome: "Samuel", g: "-", a: 2 }
                     ]
                 }
             ]
