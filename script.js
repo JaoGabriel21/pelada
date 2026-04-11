@@ -34,6 +34,12 @@
         { nome: "Dudu", foto: "./img/dudu.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Cid", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Marcelo", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Dos Anjos", foto: "./img/gabanjo.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Soldiier", foto: "./img/soldiier.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Loschi", foto: "./img/loschi.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Heitor", foto: "./img/heitor.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Renatin", foto: "./img/renatin.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Pedro Lucas", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Yan Leal", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
     ];
 
@@ -313,19 +319,6 @@
                     ]
                 },
                 {
-                    nome: "VERDE",
-                    classeCor: "header-verde",
-                    stats: { v: 3, e: 3, d: 2, gp: 5, gc: 4 },
-                    jogadores: [    
-                        { nome: "Dudu", g: "-", a: "-" },
-                        { nome: "Guilherme", g: "-", a: "-" },
-                        { nome: "Chaves", g: "-", a: "-" },
-                        { nome: "Samuel", g: "-", a: 1 },
-                        { nome: "Padre", g: 2, a: "-" },
-                        { nome: "Loirin", g: "-", a: "-" }
-                    ]
-                },
-                {
                     nome: "AZUL",
                     classeCor: "header-azul",
                     stats: { v: 2, e: 4, d: 3, gp: 6, gc: 8 },
@@ -337,11 +330,85 @@
                         { nome: "Venezuela", g: "-", a: "-" },
                         { nome: "Gabal", g: "-", a: "-" }
                     ]
+                },
+                {
+                    nome: "VERDE",
+                    classeCor: "header-verde",
+                    stats: { v: 3, e: 3, d: 2, gp: 5, gc: 4 },
+                    jogadores: [    
+                        { nome: "Dudu", g: "-", a: "-" },
+                        { nome: "Guilherme", g: "-", a: "-" },
+                        { nome: "Chaves", g: "-", a: "-" },
+                        { nome: "Samuel", g: "-", a: 1 },
+                        { nome: "Padre", g: 2, a: "-" },
+                        { nome: "Loirin", g: "-", a: "-" }
+                    ]
+                }
+            ]
+        },
+        { 
+            id: 7, 
+            data: "Sexta - 06/03/2026", 
+            local: "Casa de Portugal",
+            campeao: "VERDE", 
+            artilheiro: "Angelo / Lott / Guidoncic",
+            
+            times: [
+                {
+                    nome: "BRANCO",
+                    classeCor: "header-branco",
+                    stats: { v: 1, e: 1, d: 3, gp: 2, gc: 5 },
+                    jogadores: [
+                        { nome: "Loirin", g: 1, a: 1 }, // Gol pelo Verde no Jogo 3 ignorado
+                        { nome: "Kayan", g: "-", a: "-" },
+                        { nome: "Gabal", g: "-", a: 1 },
+                        { nome: "Lucas", g: "-", a: "-" },
+                        { nome: "dos Anjos", g: "-", a: "-" },
+                        { nome: "Sanjay", g: 1, a: "-" }
+                    ]
+                },
+                {
+                    nome: "PRETO",
+                    classeCor: "header-preto",
+                    stats: { v: 2, e: 1, d: 2, gp: 2, gc: 3 },
+                    jogadores: [    
+                        { nome: "Douglas", g: "-", a: "-" },
+                        { nome: "Renan", g: 1, a: 1 },
+                        { nome: "Chaves", g: "-", a: "-" },
+                        { nome: "Pedrinho", g: "-", a: "-" }, // Gol e assistência pelo Verde ignorados
+                        { nome: "Dudu", g: "-", a: "-" },
+                        { nome: "Venezuela", g: 1, a: "-" }
+                    ]
+                },
+                {
+                    nome: "AZUL",
+                    classeCor: "header-azul",
+                    stats: { v: 3, e: 1, d: 2, gp: 5, gc: 4 },
+                    jogadores: [    
+                        { nome: "Colombia", g: "-", a: "-" },
+                        { nome: "Lott", g: 2, a: 1 },
+                        { nome: "Loschi", g: "-", a: "-" },
+                        { nome: "Nicollas", g: 1, a: 3 }, // Gol contra no Jogo 11 ignorado
+                        { nome: "Guidoncic", g: 2, a: "-" },
+                        { nome: "Rafael", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "VERDE",
+                    classeCor: "header-verde",
+                    stats: { v: 3, e: 1, d: 2, gp: 6, gc: 3 },
+                    jogadores: [
+                        { nome: "Angelo", g: 2, a: 2 },
+                        { nome: "Samuel", g: "-", a: "-" },
+                        { nome: "Arcuri", g: 1, a: "-" },
+                        { nome: "Soldiier", g: "-", a: "-" },
+                        { nome: "Thiago L.", g: "-", a: 2 }
+                    ]
                 }
             ]
         }, 
         { 
-            id: 7, 
+            id: 8, 
             data: "Sexta - 20/03/2026", 
             local: "Casa de Portugal",
             campeao: "VERMELHO", 
@@ -362,6 +429,19 @@
                     ]
                 },
                 {
+                    nome: "AZUL",
+                    classeCor: "header-azul",
+                    stats: { v: 1, e: 3, d: 4, gp: 4, gc: 8 },
+                    jogadores: [    
+                        { nome: "Loirin", g: 2, a: 1 },
+                        { nome: "Gabal", g: "-", a: "-" },
+                        { nome: "Felipe", g: "-", a: "-" },
+                        { nome: "marcelo", g: "-", a: "-" },
+                        { nome: "Venezuela", g: 1, a: "-" },
+                        { nome: "Gustahab", g: 1, a: 1 }
+                    ]
+                },
+                {
                     nome: "VERMELHO",
                     classeCor: "header-vermelho",
                     stats: { v: 4, e: 3, d: 1, gp: 8, gc: 3 },
@@ -373,18 +453,54 @@
                         { nome: "Lucas", g: 1, a: "-" },
                         { nome: "João G.", g: 1, a: 2 }
                     ]
+                }
+            ]
+        },
+        { 
+            id: 9, 
+            data: "Sexta - 10/04/2026", 
+            local: "Casa de Portugal",
+            campeao: "PRETO", 
+            artilheiro: "Chaves",
+            
+            times: [
+                {
+                    nome: "PRETO",
+                    classeCor: "header-preto",
+                    stats: { v: 3, e: 0, d: 2, gp: 7, gc: 5 },
+                    jogadores: [
+                        { nome: "Lucas", g: 2, a: 1 },
+                        { nome: "Rafael", g: 1, a: "-" },
+                        { nome: "João G.", g: 1, a: 1 },
+                        { nome: "Chaves", g: 3, a: 1 },
+                        { nome: "Colombia", g: "-", a: "-" },
+                        { nome: "Samuel", g: "-", a: 2 }
+                    ]
                 },
                 {
                     nome: "AZUL",
                     classeCor: "header-azul",
-                    stats: { v: 1, e: 3, d: 4, gp: 4, gc: 8 },
-                    jogadores: [    
-                        { nome: "Loirin", g: 2, a: 1 },
-                        { nome: "Gabal", g: "-", a: "-" },
-                        { nome: "Felipe", g: "-", a: "-" },
-                        { nome: "marcelo", g: "-", a: "-" },
-                        { nome: "Venezuela", g: 1, a: "-" },
-                        { nome: "Gustahab", g: 1, a: 1 }
+                    stats: { v: 2, e: 2, d: 2, gp: 6, gc: 7 },
+                    jogadores: [
+                        { nome: "Pedrinho", g: 1, a: 1 },
+                        { nome: "Gustahab", g: 1, a: "-" },
+                        { nome: "Felipe", g: "-", a: 2 },
+                        { nome: "Pedro Lucas", g: 2, a: 1 },
+                        { nome: "Renatin", g: "-", a: "-" },
+                        { nome: "Venezuela", g: 2, a: 1 }
+                    ]
+                },
+                {
+                    nome: "VERMELHO",
+                    classeCor: "header-vermelho",
+                    stats: { v: 1, e: 2, d: 2, gp: 5, gc: 6 },
+                    jogadores: [
+                        { nome: "Lott", g: 2, a: 1 },
+                        { nome: "Douglas", g: "-", a: "-" },
+                        { nome: "Heitor", g: "-", a: "-" },
+                        { nome: "Loirin", g: 2, a: "-" },
+                        { nome: "Kayan", g: "-", a: "-" },
+                        { nome: "Angelo", g: 1, a: 2 }
                     ]
                 }
             ]
