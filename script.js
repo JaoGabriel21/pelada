@@ -38,11 +38,18 @@
         { nome: "Soldiier", foto: "./img/soldiier.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Loschi", foto: "./img/loschi.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Heitor", foto: "./img/heitor.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Renatin", foto: "./img/renatin.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Pedro Lucas", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
-        { nome: "Yan Leal", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
-    ];
-
+        { nome: "Renatão", foto: "./img/renatin.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Pedro Lucas", foto: "./img/pedrolucas.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Yan Leal", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Sanjay", foto: "./img/sanjay.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "GG", foto: "./img/gigante.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Daniel", foto: "./img/nene.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Gadioli", foto: "./img/gadioli.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Christian", foto: "./img/paim.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Mini Gui", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Abner", foto: "./img/abner.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Marcos", foto: "./img/43.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
+    ]
     // --- 2. REGISTRO DAS PELADAS ---
     const peladas = [
         { 
@@ -363,7 +370,7 @@
                         { nome: "Kayan", g: "-", a: "-" },
                         { nome: "Gabal", g: "-", a: 1 },
                         { nome: "Lucas", g: "-", a: "-" },
-                        { nome: "dos Anjos", g: "-", a: "-" },
+                        { nome: "Dos Anjos", g: "-", a: "-" },
                         { nome: "Sanjay", g: 1, a: "-" }
                     ]
                 },
@@ -436,7 +443,7 @@
                         { nome: "Loirin", g: 2, a: 1 },
                         { nome: "Gabal", g: "-", a: "-" },
                         { nome: "Felipe", g: "-", a: "-" },
-                        { nome: "marcelo", g: "-", a: "-" },
+                        { nome: "Marcelo", g: "-", a: "-" },
                         { nome: "Venezuela", g: 1, a: "-" },
                         { nome: "Gustahab", g: 1, a: 1 }
                     ]
@@ -473,7 +480,7 @@
                         { nome: "Gustahab", g: 1, a: "-" },
                         { nome: "Felipe", g: "-", a: 2 },
                         { nome: "Pedro Lucas", g: 2, a: 1 },
-                        { nome: "Renatin", g: "-", a: "-" },
+                        { nome: "Renatão", g: "-", a: "-" },
                         { nome: "Venezuela", g: 2, a: 1 }
                     ]
                 },
@@ -504,6 +511,204 @@
                     ]
                 }
             ]
+        },
+        { 
+            id: 10, 
+            data: "Sexta - 17/04/2026", 
+            local: "Casa de Portugal",
+            campeao: "VERDE", 
+            artilheiro: "Pedrinho / Lucas",
+            
+            times: [
+                {
+                    nome: "VERMELHO",
+                    classeCor: "header-vermelho",
+                    stats: { v: 0, e: 2, d: 3, gp: 1, gc: 5 },
+                    jogadores: [
+                        { nome: "Gabal", g: "-", a: "-" },
+                        { nome: "João G.", g: "-", a: "-" },
+                        { nome: "Rafael", g: "-", a: "-" },
+                        { nome: "Loirin", g: 1, a: "-" },
+                        { nome: "Sanjay", g: "-", a: "-" },
+                        { nome: "Renatão", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "PRETO",
+                    classeCor: "header-preto",
+                    stats: { v: 3, e: 1, d: 2, gp: 5, gc: 4 },
+                    jogadores: [
+                        { nome: "Douglas", g: 2, a: "-" },
+                        { nome: "Angelo", g: 1, a: 2 },
+                        { nome: "Lott", g: "-", a: 3 },
+                        { nome: "Colombia", g: 1, a: "-" },
+                        { nome: "Chaves", g: "-", a: "-" },
+                        { nome: "Arcuri", g: 1, a: "-" }
+                    ]
+                },
+                {
+                    nome: "VERDE",
+                    classeCor: "header-verde",
+                    stats: { v: 4, e: 1, d: 2, gp: 8, gc: 5 },
+                    jogadores: [
+                        { nome: "Pedrinho", g: 3, a: 2 },
+                        { nome: "Kayan", g: "-", a: "-" },
+                        { nome: "Samuel", g: "-", a: "-" },
+                        { nome: "Venezuela", g: 1, a: 1 },
+                        { nome: "Felipe", g: 1, a: "-" },
+                        { nome: "Lucas", g: 3, a: 3 }
+                    ]
+                }
+            ]
+        },
+        { 
+            id: 11, 
+            data: "Sexta - 24/04/2026",
+            local: "Casa de Portugal",
+            campeao: "BRANCO", 
+            artilheiro: "GG / Pedro Lucas / Gadioli",
+            
+            times: [
+                {
+                    nome: "VERDE",
+                    classeCor: "header-verde",
+                    stats: { v: 1, e: 3, d: 3, gp: 2, gc: 6 },
+                    jogadores: [
+                        { nome: "Pedrinho", g: "-", a: "-" },
+                        { nome: "Lott", g: 1, a: "-" },
+                        { nome: "Abner", g: 1, a: "-" },
+                        { nome: "João G.", g: "-", a: "-" },
+                        { nome: "Douglas", g: "-", a: 1 }
+                    ]
+                },
+                {
+                    nome: "VERMELHO",
+                    classeCor: "header-vermelho",
+                    stats: { v: 2, e: 1, d: 4, gp: 4, gc: 8 },
+                    jogadores: [
+                        { nome: "Felipe", g: 1, a: "-" },
+                        { nome: "Loirin", g: 1, a: 1 },
+                        { nome: "Renatão", g: "-", a: "-" },
+                        { nome: "Christian", g: 1, a: 1 },
+                        { nome: "Gabal", g: "-", a: "-" },
+                        { nome: "Mini Gui", g: 1, a: "-" }
+                    ]
+                },
+                {
+                    nome: "BRANCO",
+                    classeCor: "header-branco",
+                    stats: { v: 6, e: 2, d: 1, gp: 11, gc: 3 },
+                    jogadores: [
+                        { nome: "GG", g: 3, a: "-" },
+                        { nome: "Pedro Lucas", g: 3, a: 4 },
+                        { nome: "Daniel", g: 1, a: 2 },
+                        { nome: "Chaves", g: "-", a: "-" },
+                        { nome: "Guidoncic", g: "-", a: 1 },
+                        { nome: "Gadioli", g: 3, a: "-" }
+                    ]
+                }
+            ]
+        },
+        { 
+            id: 12, 
+            data: "Sexta - 08/05/2026",
+            local: "Casa de Portugal",
+            campeao: "DOURADO", 
+            artilheiro: "Douglas",
+            
+            times: [
+                {
+                    nome: "AZUL",
+                    classeCor: "header-azul",
+                    stats: { v: 2, e: 4, d: 3, gp: 4, gc: 6 },
+                    jogadores: [
+                        { nome: "Pedrinho", g: 3, a: "-" },
+                        { nome: "Angelo", g: 1, a: 1 }, // Gol pelo Dourado no Jogo 12 ignorado
+                        { nome: "Guihab", g: "-", a: 1 },
+                        { nome: "Gustahab", g: "-", a: "-" },
+                        { nome: "Sanjay", g: "-", a: 1 },
+                        { nome: "Kayan", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "VERMELHO",
+                    classeCor: "header-vermelho",
+                    stats: { v: 3, e: 3, d: 3, gp: 9, gc: 8 },
+                    jogadores: [
+                        { nome: "Gabal", g: "-", a: 1 },
+                        { nome: "Chaves", g: 1, a: "-" },
+                        { nome: "Felipe", g: 3, a: 1 },
+                        { nome: "Douglas", g: 4, a: 2 },
+                        { nome: "João G.", g: "-", a: "-" },
+                        { nome: "Lucas", g: 1, a: 3 }
+                    ]
+                },
+                {
+                    nome: "DOURADO",
+                    classeCor: "header-dourado", 
+                    stats: { v: 4, e: 3, d: 3, gp: 9, gc: 8 },
+                    jogadores: [
+                        { nome: "Lott", g: 1, a: 2 },
+                        { nome: "Colombia", g: "-", a: "-" },
+                        { nome: "Loirin", g: 2, a: 3 },
+                        { nome: "Marcos", g: 1, a: "-" },
+                        { nome: "Renatão", g: 2, a: "-" },
+                        { nome: "Samuel", g: 1, a: 1 }
+                    ]
+                }
+            ]
+        },
+        { 
+            id: 13, 
+            data: "Sexta - 15/05/2026", 
+            local: "Casa de Portugal",
+            campeao: "VERMELHO", 
+            artilheiro: "Pedro Lucas",
+            
+            times: [
+                {
+                    nome: "PRETO",
+                    classeCor: "header-preto",
+                    stats: { v: 1, e: 4, d: 2, gp: 4, gc: 5 },
+                    jogadores: [
+                        { nome: "Pedrinho", g: 1, a: "-" },
+                        { nome: "Loirin", g: 1, a: "-" },
+                        { nome: "Angelo", g: 1, a: 1 },
+                        { nome: "Chaves", g: "-", a: "-" },
+                        { nome: "Arcuri", g: 1, a: "-" },
+                        { nome: "Renatão", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "DOURADO",
+                    classeCor: "header-dourado",
+                    stats: { v: 2, e: 3, d: 1, gp: 5, gc: 5 },
+                    jogadores: [
+                        { nome: "Gabal", g: "-", a: "-" },
+                        { nome: "Douglas", g: 3, a: "-" },
+                        { nome: "Lott", g: "-", a: 1 },
+                        { nome: "Venezuela", g: 1, a: 1 },
+                        { nome: "Sanjay", g: "-", a: "-" },
+                        { nome: "Lucas", g: 1, a: 3 }
+                    ]
+                },
+                {
+                    nome: "VERMELHO",
+                    classeCor: "header-vermelho",
+                    stats: { v: 3, e: 1, d: 3, gp: 6, gc: 5 },
+                    jogadores: [
+                        { nome: "Samuel", g: "-", a: "-" },
+                        { nome: "Rafael", g: "-", a: 2 },
+                        { nome: "João G.", g: 1, a: "-" },
+                        { nome: "Pedro Lucas", g: 4, a: "-" },
+                        { nome: "Felipe", g: 1, a: "-" },
+                        { nome: "Colombia", g: "-", a: 1 }
+                    ]
+                }
+            ],
+            goleiros: [
+                { nome: "Guidoncic", golsSofridos: 10 , semGols: 2 } ,
+            ]    
         }
     ];
 
