@@ -48,6 +48,10 @@
         { nome: "Christian", foto: "./img/paim.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Mini Gui", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Abner", foto: "./img/abner.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Tiago", foto: "./img/tiago.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Ronald", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Possato", foto: "./img/possato.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
+        { nome: "Gui Braga", foto: "https://i.pinimg.com/236x/21/9e/ae/219eaea67aafa864db091919ce3f5d82.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 },
         { nome: "Marcos", foto: "./img/43.jpg", jogos: 0, vitorias: 0, campeonatos: 0, gols: 0, assistencias: 0, artilharias: 0 }
     ]
     // --- 2. REGISTRO DAS PELADAS ---
@@ -709,6 +713,153 @@
             goleiros: [
                 { nome: "Guidoncic", golsSofridos: 10 , semGols: 2 } ,
             ]    
+        },
+        { 
+            id: 14, 
+            data: "Sexta - 29/05/2026", 
+            local: "Casa de Portugal",
+            campeao: "VERMELHO", 
+            artilheiro: "Rafael / Angelo",
+            
+            times: [
+                {
+                    nome: "VERMELHO",
+                    classeCor: "header-vermelho",
+                    stats: { v: 5, e: 0, d: 2, gp: 10, gc: 5 },
+                    jogadores: [
+                        { nome: "Lott", g: "-", a: 2 },
+                        { nome: "Felipe", g: 2, a: 2 },
+                        { nome: "Marcos", g: "-", a: 1 },
+                        { nome: "Rafael", g: 3, a: 1 },
+                        { nome: "Arcuri", g: 1, a: "-" },
+                        { nome: "Loirin", g: 2, a: 2 }
+                    ]
+                },
+                {
+                    nome: "AZUL",
+                    classeCor: "header-azul",
+                    stats: { v: 3, e: 2, d: 2, gp: 6, gc: 4 },
+                    jogadores: [
+                        { nome: "Colombia", g: "-", a: 2 },
+                        { nome: "Nicolas", g: 1, a: 1 },
+                        { nome: "Samuel", g: 1, a: "-" },
+                        { nome: "Angelo", g: 3, a: "-" },
+                        { nome: "Pedro Lucas", g: "-", a: "-" },
+                        { nome: "Sanjay", g: "-", a: 2 }
+                    ]
+                },
+                {
+                    nome: "BRANCO",
+                    classeCor: "header-branco",
+                    stats: { v: 2, e: 1, d: 4, gp: 5, gc: 10 },
+                    jogadores: [
+                        { nome: "Rickson", g: 1, a: 1 },
+                        { nome: "Venezuela", g: 1, a: "-" },
+                        { nome: "Chaves", g: 1, a: "-" },
+                        { nome: "Gabal", g: 1, a: "-" },
+                        { nome: "Pedrinho", g: "-", a: "-" },
+                        { nome: "Lucas", g: 1, a: 1 }
+                    ]
+                }
+            ]
+        },
+        { 
+            id: 15, 
+            data: "Sexta - 05/06/2026", 
+            local: "Casa de Portugal",
+            campeao: "VERMELHO", 
+            artilheiro: "Angelo / Sanjay",
+            
+            times: [
+                {
+                    nome: "VERMELHO",
+                    classeCor: "header-vermelho",
+                    stats: { v: 4, e: 1, d: 2, gp: 9, gc: 5 },
+                    jogadores: [
+                        { nome: "Angelo", g: 3, a: 2 },
+                        { nome: "Chaves", g: 2, a: 2 }, 
+                        { nome: "Gustahab", g: 1, a: "-" }, 
+                        { nome: "Arcuri", g: "-", a: 1 },
+                        { nome: "Renatão", g: 2, a: "-" },
+                        { nome: "Gabriel", g: 1, a: "-" }
+                    ]
+                },
+                {
+                    nome: "VERDE",
+                    classeCor: "header-verde",
+                    stats: { v: 2, e: 2, d: 2, gp: 5, gc: 4 },
+                    jogadores: [
+                        { nome: "Colombia", g: "-", a: "-" },
+                        { nome: "João G.", g: "-", a: "-" },
+                        { nome: "Lott", g: "-", a: 1 },
+                        { nome: "Sanjay", g: 3, a: 1 },
+                        { nome: "Tiago", g: "-", a: 1 },
+                        { nome: "Padre", g: 2, a: 1 }
+                    ]
+                },
+                {
+                    nome: "AZUL",
+                    classeCor: "header-azul",
+                    stats: { v: 2, e: 2, d: 3, gp: 4, gc: 9 },
+                    jogadores: [
+                        { nome: "Venezuela", g: 1, a: 1 },
+                        { nome: "Douglas", g: 1, a: "-" },
+                        { nome: "Samuel", g: 1, a: "-" },
+                        { nome: "Lucas", g: 1, a: 2 },
+                        { nome: "Gabal", g: "-", a: 1 },
+                        { nome: "Bruno", g: "-", a: "-" }
+                    ]
+                }
+            ]
+        },
+        { 
+            id: 16, 
+            data: "Sexta - 26/06/2026", 
+            local: "Casa de Portugal",
+            campeao: "VERMELHO", 
+            artilheiro: "Pedro Lucas, Angelo, Gui Braga",
+            
+            times: [
+                {
+                    nome: "BRANCO", // Time A
+                    classeCor: "header-branco",
+                    stats: { v: 2, e: 1, d: 5, gp: 2, gc: 6 },
+                    jogadores: [
+                        { nome: "Pedrinho", g: "-", a: "-" }, // Corrigido de Drinho
+                        { nome: "Venezuela", g: "-", a: "-" },
+                        { nome: "Chaves", g: "-", a: "-" },
+                        { nome: "Pedro Lucas", g: 2, a: "-" },
+                        { nome: "Renatão", g: "-", a: "-" },
+                        { nome: "Felipe", g: "-", a: "-" }
+                    ]
+                },
+                {
+                    nome: "AZUL", // Time B
+                    classeCor: "header-azul",
+                    stats: { v: 3, e: 2, d: 2, gp: 3, gc: 2 },
+                    jogadores: [
+                        { nome: "Ronald", g: "-", a: "-" },
+                        { nome: "Colombia", g: "-", a: 1 },
+                        { nome: "Sanjay", g: 1, a: 1 },
+                        { nome: "Gabal", g: "-", a: "-" },
+                        { nome: "Possato", g: 1, a: "-" },
+                        { nome: "Lucas", g: 1, a: "-" }
+                    ]
+                },
+                {
+                    nome: "VERMELHO", // Time C
+                    classeCor: "header-vermelho",
+                    stats: { v: 4, e: 1, d: 2, gp: 5, gc: 2 },
+                    jogadores: [
+                        { nome: "Samuel", g: "-", a: "-" },
+                        { nome: "Angelo", g: 2, a: "-" },
+                        { nome: "Loirin", g: "-", a: 1 },
+                        { nome: "Gui Braga", g: 2, a: "-" }, // Corrigido
+                        { nome: "Lott", g: 1, a: 2 },
+                        { nome: "Marcos", g: "-", a: "-" }
+                    ]
+                }
+            ]
         }
     ];
 
